@@ -1,0 +1,82 @@
+*,
+.html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    background-color: rgb(142, 20, 20);
+}
+
+.container-navbar {
+    background-color: rgb(192, 33, 33);
+    width: 100%;
+    height: 70px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    color: rgb(251, 251, 251);
+    background-color: black;
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px;
+}
+
+.li-navbar:hover {
+    background-color: brown;
+    transition: .0,5s ease-in-out;
+    border-radius: 8px;
+}
+
+.container-content {
+background-color: rgb(51, 52, 55);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img-content {
+width: 50%;
+height: 30%;
+}
+
+.container-footer {
+background-color: rgb(16, 16, 17);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.h1-footer {
+color: aliceblue;
+font-size: 25px;
+}
+
+.a-navbar{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.a-content {
+    display: flex;
+    height: 50%px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.a-content :hover {
+    background-color: rgb(235, 231, 231);
+    transition: .0,5s ease-in-out;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
